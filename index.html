@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>3x Bouncing Balls Gravity Simulator with Custom Gravity</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="container" id="earthContainer">
+  <h2>Earth (g = 9.8)</h2>
+  <label>Custom Gravity: <input type="number" step="0.1" value="9.8" class="gravityInput" /></label>
+</div>
+<div class="container" id="moonContainer">
+  <h2>Moon (g = 1.6)</h2>
+  <label>Custom Gravity: <input type="number" step="0.1" value="1.6" class="gravityInput" /></label>
+</div>
+<div class="container" id="jupiterContainer">
+  <h2>Jupiter (g = 24.8)</h2>
+  <label>Custom Gravity: <input type="number" step="0.1" value="24.8" class="gravityInput" /></label>
+</div>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>
